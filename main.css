@@ -1,0 +1,28 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+body {
+  margin: 0;
+  background-color: blanchedalmond;
+}
+.container-out {
+  background-color: #fff;
+  margin: 0 10vw;
+  padding: 10px 0;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.cabecalho .opcoes {
+  display: flex;
+  justify-content: space-around;
+  width: 10vw;
+  align-items: baseline;
+}
+.btn-schedule {
+  border: none;
+  background-color: blue;
+  color: #fff;
+  padding: 20px;
+}
