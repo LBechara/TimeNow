@@ -6,7 +6,8 @@ body,
 h1,
 h2,
 h3,
-p {
+p,
+ul {
   margin: 0;
   padding: 0;
 }
@@ -14,8 +15,10 @@ p {
   background-color: #fff;
   margin: 0 10vw;
   padding: 10px 0;
+  background-color: transparent;
 }
 .cabecalho {
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
@@ -58,6 +61,7 @@ p {
 .container {
   display: flex;
   flex-wrap: wrap;
+  background-color: transparent;
 }
 .conteudo,
 .conteudo-deslocado,
@@ -96,7 +100,7 @@ p {
   text-decoration: underline;
 }
 .conteudo-deslocado {
-  background-color: #46ccde;
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,4 +155,45 @@ p {
   color: #4a5e6f;
   font-size: 14px;
   margin-bottom: 10px;
+}
+
+.conteudo-rodape {
+  margin: 0 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-rodape {
+  margin: 0 10vw;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.interacoes {
+  display: flex;
+  justify-content: space-around;
+}
+.interacoes #lista > li {
+  list-style-type: none;
+  margin: 10px 0;
+  margin-right: 10vw;
+  color: #788592;
+}
+.form {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid #788592;
+  padding: 2px;
+  margin-top: 5px;
+}
+.input-email {
+  border: none;
+  padding-left: 20px;
+}
+.fundo-deslocado {
+  position: absolute;
+  background-color: #46ccde;
+  right: 0px;
+  top: 0px;
+  width: 49.5vw;
+  height: 74.5vh;
+  z-index: -1;
 }
