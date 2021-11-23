@@ -32,6 +32,8 @@ ul {
 }
 .cabecalho .opcoes .link {
   margin-left: 40px;
+  text-decoration: none;
+  color: #788592;
 }
 .cabecalho .btn-schedule {
   position: relative;
@@ -44,6 +46,7 @@ ul {
   padding: 15px;
   border-radius: 5px;
   font-weight: 500;
+  cursor: pointer;
 }
 .btn-schedule:hover {
   background-color: #8aaab6;
